@@ -1,18 +1,15 @@
 <template>
-  <div class="container m-auto">
-    <Navbar />
-    <!-- <Hero /> -->
-  </div>
+  <main>
+    <Hero class="px-6 sm:px-12 md:px-28 py-6 sm:py-12 md:py-10" />
+  </main>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-// import Hero from "./components/Hero.vue";
+import Hero from "./components/Hero.vue";
 export default {
   name: "App",
   components: {
-    Navbar,
-    // Hero,
+    Hero,
   },
 };
 </script>

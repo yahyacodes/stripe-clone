@@ -1,16 +1,17 @@
 <template>
   <div class="container m-auto">
-    <nav class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 bg-gray-900">
+    <nav class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
       <div
         class="container flex flex-wrap items-center justify-between mx-auto"
       >
-        <span class="self-center text-xl font-semibold whitespace-nowrap"
+        <span
+          class="self-center text-xl text-white font-semibold whitespace-nowrap"
           >Stripe</span
         >
         <div class="flex md:order-2">
           <button
             type="button"
-            class="text-white bg-gray-50 hover:bg-gray-100 rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0"
+            class="text-white bg-black/20 hover:bg-black/30 rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0"
           >
             Sign in
           </button>

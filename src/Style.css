@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  color: #262729b3;
+}
+
+.hero-bg {
+  background-color: hsla(62, 100%, 48%, 1);
+  background-image: radial-gradient(
+      at 87% 9%,
+      hsla(260, 100%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 9% 41%, hsla(189, 92%, 44%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 66%, hsla(61, 100%, 50%, 1) 0px, transparent 50%),
+    radial-gradient(at 95% 27%, hsla(51, 100%, 50%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 97%, hsla(3, 100%, 50%, 1) 0px, transparent 50%),
+    radial-gradient(at 91% 75%, hsla(264, 100%, 50%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(287, 100%, 50%, 1) 0px, transparent 50%);
+  clip-path: polygon(0px 0, 100% 0px, 100% 40%, 0px 96%);
+}
+
+/* .polygon {
+    polygon(0px 13%, 100% 0px, 100% 100%, 0px 96%)
+} */
