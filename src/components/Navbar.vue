@@ -1,6 +1,6 @@
 <template>
   <div class="container m-auto">
-    <nav class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
+    <nav class="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0">
       <div
         class="container flex flex-wrap items-center justify-between mx-auto"
       >
@@ -11,7 +11,7 @@
         <div class="flex md:order-2">
           <button
             type="button"
-            class="text-white bg-black/20 hover:bg-black/30 rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0"
+            class="text-white nav-button rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0"
           >
             Sign in
           </button>
@@ -48,10 +48,10 @@
             <li>
               <a
                 href="#"
-                class="group block py-2 pl-3 pr-4 text-gray-100 md:p-0"
-                >Home</a
+                class="group block py-2 pl-3 pr-4 text-gray-100 text-bold scale-125 md:p-0"
+                >Products</a
               >
-              <div
+              <!-- <div
                 class="z-10 hidden group-hover:block font-normal bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
               >
                 <ul
@@ -62,7 +62,7 @@
                     <a
                       href="#"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >Dashboard</a
+                      >So</a
                     >
                   </li>
                   <li>
@@ -87,22 +87,35 @@
                     >Sign out</a
                   >
                 </div>
-              </div>
+              </div> -->
             </li>
 
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 md:p-0"
-                >About</a
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-100 text-bold scale-125 md:p-0"
+                >Solutions</a
               >
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 md:p-0"
-                >Services</a
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-100 text-bold scale-125 md:p-0"
+                >Developers</a
               >
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 md:p-0"
-                >Contact</a
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-100 text-bold scale-125 md:p-0"
+                >Resources</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-100 text-bold scale-125 md:p-0"
+                >Pricing</a
               >
             </li>
           </ul>
