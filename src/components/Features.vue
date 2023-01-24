@@ -32,24 +32,39 @@
 
       <button class="rounded-full text-white py-1 px-3 bg-purple-700">
         Start with payments
+        <fa icon="chevron-right" class="h-3" />
       </button>
 
       <div class="flex flex-row">
-        <div class="columns-3 gap-0 mt-20 ml-20">
+        <div class="grid grid-cols-3 gap-20 mt-20 ml-20">
           <img
             src="../stripeImages/stripe--payments-card.png"
             alt=""
-            class="rounded scale-150 ml-20"
+            class="rounded scale-150 ml-48"
           />
           <img
             src="../stripeImages/stripe-company-card.png"
             alt=""
-            class="scale-110 mr-20"
+            class="mr-20 scale-110"
           />
           <img
             src="../stripeImages/stripe-mobile-removebg-preview.png"
             alt=""
             class="scale-150"
+          />
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="grid grid-cols-2 gap-20 ml-20 mt-20">
+          <img
+            src="../stripeImages/stripe-warby.png"
+            alt=""
+            class="ml-20 rounded-3xl"
+          />
+          <img
+            src="../stripeImages/stripe-fraud_risk-removebg-preview.png"
+            alt=""
+            class="scale-150 mt-64"
           />
         </div>
       </div>

@@ -31,8 +31,12 @@
         </p>
         <button class="rounded-full text-white py-1 px-3 bg-gray-800">
           Start now
+          <fa icon="chevron-right" class="h-3" />
         </button>
-        <a href="#" class="text-gray-800 ml-4 py-1 px-3">Contact sales</a>
+        <a href="#" class="text-gray-800 ml-4 py-1 px-3">
+          Contact sales
+          <fa icon="chevron-right" class="h-3" />
+        </a>
       </div>
 
       <div class="flex flex-row">
