@@ -11,11 +11,13 @@
     </div>
     <Navbar />
     <div class="mt-8">
-      <div class="columns-2 gap-20 ml-60">
-        <h1 class="font-bold text-5xl ml-20 leading-none mt-28">
+      <div class="md:columns-2 sm:columns-1 sm:ml-0 gap-20 ml-60">
+        <h1
+          class="font-bold md:text-5xl sm:text-4xl md:ml-20 sm:ml-5 leading-none mt-28"
+        >
           Financial Infrastructure for the internet
         </h1>
-        <div class="stripe-starts ml-72 scale-105">
+        <div class="stripe-starts ml-72 scale-105 block sm:hidden">
           <img
             src="../stripeImages/stripe-starts-removebg-preview.png"
             alt=""
@@ -23,7 +25,7 @@
         </div>
       </div>
 
-      <div class="ml-80">
+      <div class="md:ml-80 sm:ml-5">
         <p class="max-w-lg text-xl py-2">
           Millions of companies of all sizes—from startups to Fortune 500s—use
           Stripe's software and APIs to accept payments, send payouts, and
@@ -40,46 +42,48 @@
       </div>
 
       <div class="flex flex-row">
-        <div class="grid grid-cols-4 gap-28 mt-20 ml-80">
+        <div
+          class="grid md:grid-cols-4 sm:grid-cols-2 md:gap-28 sm:gap-10 md:mt-20 sm:mt-28 md:ml-80 sm:ml-5"
+        >
           <img
             src="../stripeImages/instacart-logo-removebg-preview.png"
             alt=""
-            class="h-5 mt-5 max-w-5 ml-20"
+            class="h-5 mt-5 max-w-5 md:ml-20 sm:ml-0"
           />
           <img
             src="../stripeImages/salesforce-logo-removebg-preview.png"
             alt=""
-            class="max-w-5 h-14"
+            class="md:max-w-5 md:h-14 sm:h-12 sm:max-w-5"
           />
           <img
             src="../stripeImages/amazon-removebg-preview.png"
             alt=""
-            class="h-10 max-w-5"
+            class="md:h-10 sm:max-w-5 sm:h-8 sm:max-w-10"
           />
           <img
             src="../stripeImages/slack-logo-removebg-preview.png"
             alt=""
-            class="h-10 max-w-5"
+            class="md:h-10 md:max-w-5 sm:h-8 sm:max-w-10"
           />
           <img
             src="../stripeImages/shopify-logo-removebg-preview.png"
             alt=""
-            class="h-14 max-w-10 ml-20"
+            class="md:h-14 md:max-w-10 md:ml-20 sm:ml-0 sm:h-12 sm:max-w-10"
           />
           <img
             src="../stripeImages/google-logo-removebg-preview.png"
             alt=""
-            class="h-20 max-w-10"
+            class="md:h-20 md:max-w-10 sm:h-16 sm:max-w-10"
           />
           <img
             src="../stripeImages/lyft-logo-removebg-preview.png"
             alt=""
-            class="h-20 max-w-5"
+            class="md:h-20 md:max-w-5 sm:h-16 sm:max-w-5"
           />
           <img
             src="../stripeImages/zoom-logo-removebg-preview.png"
             alt=""
-            class="h-10 max-w-5"
+            class="md:h-10 md:max-w-5 sm:h-8 sm:max-w-5"
           />
         </div>
       </div>

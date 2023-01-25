@@ -1,14 +1,16 @@
 <template>
   <section class="bg-blue-50 mt-20 relative">
-    <div class="container ml-80 py-40">
+    <div class="container md:ml-52 sm:ml-5 py-40">
       <h1 class="text-purple-700 text-xl text-bold">Unified platform</h1>
-      <p class="text-4xl text-bold mt-20 max-w-xl">
+      <p
+        class="md:text-4xl sm:text-3xl font-bold md:mt-20 sm:mt-5 md:max-w-xl sm:w-80"
+      >
         A fully integrated suite of payments products
       </p>
 
       <div class="flex flex-row">
-        <div class="columns-2 gap-28 mt-10">
-          <p class="text-xl text-bold max-w-lg">
+        <div class="md:columns-2 md:gap-28 sm:columns-1 mt-10">
+          <p class="text-xl text-bold md:max-w-lg sm:w-80">
             We bring together everything that's required to build websites and
             apps that accept payments and send payouts globally. Stripe's
             products power payments for
@@ -19,7 +21,7 @@
             and everything in between.
           </p>
 
-          <p class="text-xl text-bold max-w-lg">
+          <p class="text-xl text-bold max-w-lg sm:mt-5 sm:mb-4">
             We also help companies
             <span class="text-purple-700"
               >beat fraud, send invoices, issue virtual and physical cards,
@@ -36,35 +38,37 @@
       </button>
 
       <div class="flex flex-row">
-        <div class="grid grid-cols-3 gap-20 mt-20 ml-20">
+        <div
+          class="grid md:grid-cols-3 sm:grid-cols-2 gap-20 mt-20 md:ml-20 sm:ml-5"
+        >
           <img
             src="../stripeImages/stripe--payments-card.png"
             alt=""
-            class="rounded scale-150 ml-48"
+            class="rounded md:scale-150 sm:scale-125 md:ml-48 sm:ml-5"
           />
           <img
             src="../stripeImages/stripe-company-card.png"
             alt=""
-            class="mr-20 scale-110"
+            class="md:mr-20 md:scale-110 sm:scale-150"
           />
           <img
             src="../stripeImages/stripe-mobile-removebg-preview.png"
             alt=""
-            class="scale-150"
+            class="scale-150 block sm:hidden"
           />
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="grid grid-cols-2 gap-20 ml-20 mt-20">
+        <div class="grid grid-cols-2 gap-20 md:ml-20 sm:ml-5 mt-20">
           <img
             src="../stripeImages/stripe-warby.png"
             alt=""
-            class="ml-20 rounded-3xl"
+            class="md:ml-20 sm:ml-5 rounded-3xl"
           />
           <img
             src="../stripeImages/stripe-fraud_risk-removebg-preview.png"
             alt=""
-            class="scale-150 mt-64"
+            class="md:scale-150 md:mt-64 sm:mt-20 sm:scale-150"
           />
         </div>
       </div>

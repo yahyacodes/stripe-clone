@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-50">
-    <div class="container ml-80 py-20">
-      <div class="grid grid-cols-2 gap-0 px-6 md:grid-cols-4 mt-48">
+    <div class="container md:ml-52 sm:ml-5 py-20">
+      <div class="grid grid-cols-2 gap-0 sm:gap-5 px-6 md:grid-cols-4 mt-48">
         <div>
           <h2 class="text-lg font-bold text-gray-900">Stripe</h2>
           <ul class="text-gray-900">
@@ -15,7 +15,7 @@
             </li>
           </ul>
           <div
-            class="px-4 top-[700px] relative bg-gray-50 md:flex md:items-center md:justify-between"
+            class="px-4 md:top-[700px] sm:top-0 relative bg-gray-50 md:flex md:items-center md:justify-between"
           >
             <span class="text-lg text-gray-600 sm:text-center"
               >© 2023 Stripe, Inc.

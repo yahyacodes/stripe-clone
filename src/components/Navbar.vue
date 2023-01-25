@@ -11,14 +11,14 @@
         <div class="flex md:order-2">
           <button
             type="button"
-            class="text-white nav-button rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0"
+            class="text-white nav-button rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0 sm:hidden"
           >
             Sign in
           </button>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 text-sm text-white rounded-lg px-4 py-1 md:hidden hover:bg-gray-50 nav-button"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >

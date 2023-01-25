@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
-  margin: 0;
-}
-
 .hero {
   position: relative;
   isolation: isolate;
@@ -75,4 +69,27 @@ footer {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+}
+
+@media (max-width: 400px) {
+  .devs {
+    background: rgba(10, 37, 64);
+    clip-path: polygon(0 15%, 100% 6%, 100% 90%, 0 95%);
+  }
+
+  footer {
+    clip-path: polygon(0 15%, 100% 6%, 100% 100%, 0 100%);
+  }
+
+  .devs-bg {
+    background: rgba(10, 37, 64);
+    clip-path: polygon(0 15%, 100% 6%, 100% 100%, 0 100%);
+  }
+
+  .globe-bg {
+    background-image: url(/src/stripeImages/stripe-globe-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
 }
