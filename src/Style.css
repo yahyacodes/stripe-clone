@@ -71,14 +71,14 @@ footer {
   background-size: contain;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1024px) {
   .devs {
     background: rgba(10, 37, 64);
     clip-path: polygon(0 15%, 100% 6%, 100% 90%, 0 95%);
   }
 
   footer {
-    clip-path: polygon(0 15%, 100% 6%, 100% 100%, 0 100%);
+    clip-path: polygon(0 10%, 100% 6%, 100% 100%, 0 100%);
   }
 
   .devs-bg {

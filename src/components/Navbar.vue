@@ -11,14 +11,15 @@
         <div class="flex md:order-2">
           <button
             type="button"
-            class="text-white nav-button rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0 sm:hidden"
+            class="text-white nav-button rounded-full text-sm px-5 py-2 text-center mr-3 md:mr-0 xl:block sm:hidden"
           >
             Sign in
+            <fa icon="chevron-right" class="h-3" />
           </button>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            class="inline-flex items-center p-2 text-sm text-white rounded-lg px-4 py-1 md:hidden hover:bg-gray-50 nav-button"
+            class="inline-flex items-center p-2 text-sm text-white rounded-lg px-4 py-1 xl:hidden hover:bg-gray-50 nav-button"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
@@ -39,7 +40,7 @@
           </button>
         </div>
         <div
-          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          class="items-center justify-between hidden w-full xl:flex xl:w-auto xl:order-1"
           id="navbar-sticky"
         >
           <ul

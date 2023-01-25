@@ -1,13 +1,15 @@
 <template>
-  <section class="devs-bg py-80 relative globe-bg">
-    <div class="container md:ml-52 sm:ml-5">
+  <section class="devs-bg xl:py-80 lg:py-40 relative globe-bg">
+    <div class="container 2xl:ml-52 sm:ml-5 lg:mt-20">
       <h1 class="text-cyan-400 font-bold text-xl">Global scale</h1>
       <p
-        class="font-bold md:text-4xl sm:text-3xl md:max-w-md sm:w-80 text-white mt-5 md:ml-2"
+        class="font-bold xl:text-4xl sm:text-3xl xl:max-w-xl 2xl:w-8/12 sm:w-80 text-white mt-5 xl:ml-2"
       >
         The backbone for internet business
       </p>
-      <p class="text-gray-400 md:max-w-sm sm:w-80 sm:text-lg font-bold mt-4">
+      <p
+        class="text-gray-400 xl:max-w-sm sm:w-80 2xl:w-8/12 sm:text-lg font-bold mt-4"
+      >
         For ambitious companies around the world, Stripe makes moving money as
         simple, borderless, and programmable as the rest of the internet. Our
         teams are based in dozens of offices around the world and we process
@@ -16,11 +18,13 @@
       </p>
 
       <div class="flex flex-row">
-        <div class="md:columns-4 sm:columns-1 gap-10 mt-10">
+        <div
+          class="xl:columns-4 lg:columns-2 sm:columns-1 2xl:gap-10 xl:gap-5 mt-10"
+        >
           <h1 class="text-white font-bold text-2xl border-cyan-400 border-l">
             250M+
           </h1>
-          <p class="text-gray-400 text-md md:w-60 sm:w-80 md:mt-4">
+          <p class="text-gray-400 text-xl xl:w-60 sm:w-80 xl:mt-4">
             API requests per day, peaking at 13,000 requests a second
           </p>
 
@@ -29,7 +33,7 @@
           >
             90%
           </h1>
-          <p class="text-gray-400 md:w-60 sm:w-80 md:mt-4">
+          <p class="text-gray-400 xl:w-60 sm:w-80 xl:mt-4">
             of U.S. adults have brought from businesses using Stripe
           </p>
 
@@ -38,7 +42,7 @@
           >
             135+
           </h1>
-          <p class="text-gray-400 w-60 md:mt-4">
+          <p class="text-gray-400 w-60 xl:mt-4">
             currencies and payment methods supported
           </p>
 
@@ -47,7 +51,7 @@
           >
             35+
           </h1>
-          <p class="text-gray-400 w-60 md:mt-4">
+          <p class="text-gray-400 w-60 xl:mt-4">
             countries with local acquiring, optimizing acceptance rates
           </p>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-50">
-    <div class="container md:ml-52 sm:ml-5 py-20">
-      <div class="grid grid-cols-2 gap-0 sm:gap-5 px-6 md:grid-cols-4 mt-48">
+    <div class="container 2xl:ml-52 sm:ml-5 py-20">
+      <div class="grid grid-cols-2 gap-0 sm:gap-5 px-6 xl:grid-cols-4 mt-48">
         <div>
           <h2 class="text-lg font-bold text-gray-900">Stripe</h2>
           <ul class="text-gray-900">
@@ -14,15 +14,15 @@
               <a href="#" class="text-sm"> English (Unitied States)</a>
             </li>
           </ul>
-          <div
-            class="px-4 md:top-[700px] sm:top-0 relative bg-gray-50 md:flex md:items-center md:justify-between"
-          >
-            <span class="text-lg text-gray-600 sm:text-center"
-              >© 2023 Stripe, Inc.
-            </span>
+          <div class="px-4 xl:top-[700px] sm:top-0 relative bg-gray-50">
+            <span class="text-lg text-gray-600">© 2023 Stripe, Inc. </span>
           </div>
         </div>
+      </div>
 
+      <div
+        class="grid grid-cols-2 gap-80 sm:gap-5 px-6 lg:grid-cols-4 xl:ml-72 sm:mt-5 xl:-mt-28"
+      >
         <div>
           <h2 class="mb-2 text-sm font-semibold text-gray-600">Products</h2>
           <ul class="text-gray-500">
@@ -129,7 +129,7 @@
             </li>
           </ul>
 
-          <h2 class="mb-5 text-sm font-semibold text-gray-600">
+          <h2 class="mb-5 text-sm font-semibold text-gray-600 sm:w-32">
             Integrations & Custom Solutions
           </h2>
           <ul class="text-gray-500">

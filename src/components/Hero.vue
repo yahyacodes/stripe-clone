@@ -11,13 +11,15 @@
     </div>
     <Navbar />
     <div class="mt-8">
-      <div class="md:columns-2 sm:columns-1 sm:ml-0 gap-20 ml-60">
+      <div class="xl:columns-2 sm:columns-1 sm:ml-0 gap-20 ml-60">
         <h1
-          class="font-bold md:text-5xl sm:text-4xl md:ml-20 sm:ml-5 leading-none mt-28"
+          class="font-bold 2xl:text-5xl sm:text-4xl md:ml-20 lg:ml-0 md:w-96 2xl:w-8/12 xl:ml-20 2xl:ml-80 sm:ml-5 leading-none 2xl:mt-52 xl:mt-56 md:mt-32"
         >
           Financial Infrastructure for the internet
         </h1>
-        <div class="stripe-starts ml-72 scale-105 block sm:hidden">
+        <div
+          class="stripe-starts 2xl:ml-96 lg:ml-0 scale-105 lg:block sm:hidden"
+        >
           <img
             src="../stripeImages/stripe-starts-removebg-preview.png"
             alt=""
@@ -25,8 +27,8 @@
         </div>
       </div>
 
-      <div class="md:ml-80 sm:ml-5">
-        <p class="max-w-lg text-xl py-2">
+      <div class="2xl:ml-80 xl:ml-20 lg:ml-0 md:ml-20 sm:ml-5">
+        <p class="2xl:max-w-lg lg:max-w-xs xl:max-w-md text-xl py-2">
           Millions of companies of all sizes—from startups to Fortune 500s—use
           Stripe's software and APIs to accept payments, send payouts, and
           manage their businesses online.
@@ -43,47 +45,47 @@
 
       <div class="flex flex-row">
         <div
-          class="grid md:grid-cols-4 sm:grid-cols-2 md:gap-28 sm:gap-10 md:mt-20 sm:mt-28 md:ml-80 sm:ml-5"
+          class="grid lg:grid-cols-4 sm:grid-cols-2 2xl:gap-28 xl:gap-10 sm:gap-10 xl:mt-20 sm:mt-28 2xl:ml-80 sm:ml-5"
         >
           <img
             src="../stripeImages/instacart-logo-removebg-preview.png"
             alt=""
-            class="h-5 mt-5 max-w-5 md:ml-20 sm:ml-0"
+            class="xl:h-5 xl:mt-5 xl:max-w-5 2xl:ml-20 xl:ml-10 lg:h-5 lg:mt-5 lg:max-w-5 lg:ml-0 sm:ml-0 md:ml-10 md:h-6 md:mt-6 md:max-w-10"
           />
           <img
             src="../stripeImages/salesforce-logo-removebg-preview.png"
             alt=""
-            class="md:max-w-5 md:h-14 sm:h-12 sm:max-w-5"
+            class="xl:max-w-5 xl:h-14 lg:h-10 lg:mt-5 lg:max-w-5 lg:ml-0 sm:h-12 sm:max-w-5 md:ml-10 md:h-14 md:mt-4 md:max-w-10"
           />
           <img
             src="../stripeImages/amazon-removebg-preview.png"
             alt=""
-            class="md:h-10 sm:max-w-5 sm:h-8 sm:max-w-10"
+            class="xl:h-10 lg:h-10 lg:mt-5 lg:max-w-5 lg:ml-0 sm:max-w-5 sm:h-8 sm:max-w-10 md:ml-10 md:h-12 md:mt-4 md:max-w-10"
           />
           <img
             src="../stripeImages/slack-logo-removebg-preview.png"
             alt=""
-            class="md:h-10 md:max-w-5 sm:h-8 sm:max-w-10"
+            class="xl:h-10 xl:max-w-5 lg:h-8 lg:mt-5 lg:max-w-5 lg:ml-0 sm:h-8 sm:max-w-10 md:ml-10 md:h-10 md:mt-4 md:max-w-10"
           />
           <img
             src="../stripeImages/shopify-logo-removebg-preview.png"
             alt=""
-            class="md:h-14 md:max-w-10 md:ml-20 sm:ml-0 sm:h-12 sm:max-w-10"
+            class="xl:h-14 xl:max-w-10 2xl:ml-20 xl:ml-10 lg:h-12 lg:mt-5 lg:max-w-5 lg:ml-0 sm:ml-0 sm:h-12 sm:max-w-10 md:ml-10 md:h-12 md:max-w-10"
           />
           <img
             src="../stripeImages/google-logo-removebg-preview.png"
             alt=""
-            class="md:h-20 md:max-w-10 sm:h-16 sm:max-w-10"
+            class="xl:h-20 xl:max-w-10 lg:h-18 lg:mt-5 lg:max-w-5 lg:ml-0 sm:h-16 sm:max-w-10 md:ml-10 md:h-14 md:max-w-10"
           />
           <img
             src="../stripeImages/lyft-logo-removebg-preview.png"
             alt=""
-            class="md:h-20 md:max-w-5 sm:h-16 sm:max-w-5"
+            class="xl:h-20 xl:max-w-5 lg:h-18 lg:mt-5 lg:max-w-5 lg:ml-0 sm:h-16 sm:max-w-5 md:ml-20 md:h-18 md:max-w-10"
           />
           <img
             src="../stripeImages/zoom-logo-removebg-preview.png"
             alt=""
-            class="md:h-10 md:max-w-5 sm:h-8 sm:max-w-5"
+            class="xl:h-10 xl:max-w-5 lg:h-8 2xl:mt-10 lg:mt-5 lg:max-w-5 lg:ml-0 sm:h-8 sm:max-w-5 md:ml-10 md:h-8 md:max-w-10"
           />
         </div>
       </div>
