@@ -3,30 +3,30 @@
     <div class="flex flex-row">
       <div class="xl:columns-2 sm:columns-1 gap-28">
         <div class="container 2xl:ml-0 sm:ml-5">
-          <h1 class="font-bold text-cyan-300 xl:mt-40 sm:mt-10">
+          <h1 class="font-bold text-cyan-300 xl:mt-40 sm:mt-10 2xl:ml-64">
             Designed for developers
           </h1>
           <p
-            class="font-bold xl:text-3xl sm:text-3xl text-white 2xl:max-w-lg xl:w-5/12 sm:w-80 leading-1 mt-10"
+            class="font-bold xl:text-3xl sm:text-3xl text-white 2xl:w-6/12 xl:w-5/12 sm:w-80 leading-1 mt-10 2xl:ml-64"
           >
             The world's most powerful and easy-to-use APIs
           </p>
           <p
-            class="font-bold xl:text-lg text-gray-400 xl:w-6/12 lg:w-80 sm:text-lg sm:mt-5"
+            class="font-bold xl:text-lg text-gray-400 xl:w-6/12 lg:w-80 sm:text-lg sm:mt-5 2xl:ml-64"
           >
             We agonize over the right abstractions so your teams don't need to
             stitch together disparate systems or spend months integrating
             payments functionality.
           </p>
           <button
-            class="rounded-full text-gray-900 xl:mt-3 sm:mt-5 py-1 px-3 bg-cyan-300"
+            class="rounded-full text-gray-900 xl:mt-3 sm:mt-5 py-1 px-3 bg-cyan-300 2xl:ml-64"
           >
             Read the docs
             <fa icon="chevron-right" class="h-3" />
           </button>
 
           <div class="flex flex-row">
-            <div class="xl:columns-2 sm:columns-1 gap-20 mt-10">
+            <div class="xl:columns-2 sm:columns-1 gap-20 mt-10 2xl:ml-64">
               <div
                 class="bg-cyan-300 fon-bold text-gray-900 h-8 w-10 mt-10 rounded"
               >
@@ -43,7 +43,7 @@
               </p>
               <a
                 href="#"
-                class="text-cyan-400 xl:ml-4 xl:mt-5 sm:ml-0 sm:mt-10"
+                class="text-cyan-400 xl:ml-0 xl:mt-5 sm:ml-0 sm:mt-10"
               >
                 See libraries
                 <fa icon="chevron-right" class="h-3" />
@@ -63,7 +63,7 @@
               </p>
               <a
                 href="#"
-                class="text-cyan-400 xl:ml-4 xl:mt-5 sm:ml-0 sm:mt-10 py-1"
+                class="text-cyan-400 xl:ml-0 xl:mt-5 sm:ml-0 sm:mt-10 py-1"
               >
                 Explore patners
                 <fa icon="chevron-right" class="h-3" />
@@ -73,11 +73,7 @@
           <div class="opacity-0">""""</div>
           <div class="opacity-0">""""</div>
 
-          <img
-            src="../stripeImages/stripe-code.png"
-            alt=""
-            class="xl:mt-96 2xl:mt-0"
-          />
+          <img src="../stripeImages/stripe-code.png" alt="" class="xl:mt-96" />
           <img src="../stripeImages/stripe-terminal-snippet.png" alt="" />
         </div>
       </div>
